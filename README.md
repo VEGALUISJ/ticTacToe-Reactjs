@@ -19,7 +19,7 @@ Posibility to go back in each move.
 
 
 
-##Instructions to open project:
+####Instructions to open project:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
