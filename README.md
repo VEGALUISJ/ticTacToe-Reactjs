@@ -5,7 +5,7 @@ This is a Tictactoe game developed with react using basic props and basic ecmasc
 
 This is a game full displayed using basic JSX, CSS, and a Lot javascript code, using React.js, Node.js, If conditionals and other features that Javascript lenguage offer.
 
-**Demo Coming Soon
+### Demo Comming soon.
 
 ### Technologies used:
 - Javascript, CSS , HTML and Framework React.js and Node.js
@@ -19,7 +19,7 @@ Posibility to go back in each move.
 
 
 
-##Instructions to open project:
+# Instructions to open and work this project with react.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
