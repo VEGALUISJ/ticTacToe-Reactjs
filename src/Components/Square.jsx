@@ -1,11 +1,12 @@
 import React from 'react';
 
 const Square = ({ value, onClick }) => {
-    const style = value ? `squares ${value}` : `squares`;
+    const style = value ? value.toUpperCase() : "red";
+    console.log(style);
 
     return (
         <button onClick={onClick}>
-            {value}
+            <p className={style} >{value}</p>
         </button>
     )
 };

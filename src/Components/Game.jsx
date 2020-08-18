@@ -7,16 +7,21 @@ const Game = () => {
     const [stepNumber, setStepNumber] = useState(0);
     const [xIsNext, setXisNext] = useState(true);
     const winner = calculateWinner(history[stepNumber]);
-  const xO = xIsNext ? "X" : "O";
+    const xO = xIsNext ? "X" : "O";
 
   const handleClick = (i) => {
+    console.log('parametro', i);
+    console.log("numero de pasos", stepNumber);
     const historyPoint = history.slice(0, stepNumber + 1);
+    console.log("esto es el history point", historyPoint)
     const current = historyPoint[stepNumber];
+    console.log('current', current);
     const squares = [...current];
     // return if won or occupied
     if (winner || squares[i]) return;
     // select square
     squares[i] = xO;
+    
     setHistory([...historyPoint, squares]);
     setStepNumber(historyPoint.length);
     setXisNext(!xIsNext);

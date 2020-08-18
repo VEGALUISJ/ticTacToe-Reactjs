@@ -32,13 +32,17 @@ h1 {
 .square {
   background: #272727;
   border: none;
-  font-size: 5rem;
+  font-size: 15rem;
   cursor: pointer;
   outline: none;
 };
 
 .X {
-  color: red;
+  color: red !important;
+}
+
+.red {
+  color: blue;
 }
 
 .O {
